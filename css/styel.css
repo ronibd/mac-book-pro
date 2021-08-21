@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;    
+    }
+    
+  
+    
+    /*------------------------ main start section------------------------- */
+    .main-section{
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-image{
+        width: 50%;
+        padding:3%;
+    }
+    .main-image h2{
+        text-align: center;
+       color:darkslateblue;
+    }
+    .main-image img{
+        width: 100%;
+    }
+    /*------------------------ main end section------------------------- */
+    
+    
+    /* --------------------customize start section------------------ */
+    .customize-section{
+        width: 50%;
+        padding:3%;
+        
+    }
+    .product-details h1{
+        font-size: xx-large;
+        margin-bottom:3%;
+    }
+    .shipping-display{
+        display: flex;
+        width: 500px;
+    }
+    
+    .option-section {
+        padding: 1rem 0;
+    }
+    .option-section button{
+     padding: 3%;
+    
+    }
+    .option-section button:hover{
+        background-color:rgb(6, 248, 66);
+    }
+    
+    .price-row{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        padding:0.75rem;
+    }
+    hr{
+        width: 50%;
+        background-color: rgb(168, 156, 156);
+    }
+    /* --------------------customize end section------------------ */
+    
+    
+    /* ---------------Promo code start sectiion -----------------*/
+    .promo-code{
+        padding: 1rem 0; 
+    }
+    .promo-code button{
+        padding: 3%;
+        width:40%;
+        background-color: rgba(255, 0, 34, 0.979);
+        border-radius:10px;
+        color: white;
+        
+        
+    }
+    .input-promo{
+        padding: 1.5%;
+        font-weight: 600;
+    }
+    .input-promo:hover{
+        background-color:whitesmoke;
+    }
+    /* ---------------Promo code end sectiion -----------------*/
+    .last-hr{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    #promo-button{
+        font-size: 18px;
+    }
+    
+    .total{
+        text-align: center;
+    }
+    .text-center{
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    /* ----------------------end css----------------------------- */
